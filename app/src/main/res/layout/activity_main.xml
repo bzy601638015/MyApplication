@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <com.example.baozhiyuan.myapplication.views.BambooLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ff0000"
+        android:orientation="vertical"
+    >
+        <com.example.baozhiyuan.myapplication.views.BambooButton
+            android:id="@+id/btn_test"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:text="测试"
+            />
+
+        <Button
+            android:id="@+id/main_btn_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="RecyclerView"
+            />
+    </com.example.baozhiyuan.myapplication.views.BambooLinearLayout>
+
+</RelativeLayout>
